@@ -4,6 +4,7 @@
   "description": "scaler_assignment shortest path application like uber for cabs",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js"
     "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
