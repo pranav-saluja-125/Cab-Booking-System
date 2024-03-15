@@ -1,0 +1,190 @@
+.banner__outer {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner__left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .banner__left__top {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .banner__left__mid {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .banner__left__bottom {
+    display: flex;
+  }
+  
+  .banner__left__bottom__button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .banner__left__bottom__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .banner__right {
+    flex: 1;
+  }
+  
+  .nav__icon {
+    margin-left: 5px;
+  }
+  
+  .banner__right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+@media screen and (max-width:1450px)
+{
+    .banner__inner{
+        background-position: 0rem 0rem;
+        background-size: 40rem;
+    }
+}
+
+@media screen and (max-width:1155px)
+{
+    .banner__outer{
+        width:100%;
+        height:30rem;
+    }
+    .banner__inner{
+        background-position: 2rem -5rem;
+        background-size: 35rem;
+    }
+    .banner__right{
+        width:30%;
+    }
+    .banner__left{
+        width:30%;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 0.4rem;
+    }
+}
+
+@media screen and (max-width:1110px)
+{
+    .banner__outer{
+        width:100%;
+        height:25rem;
+    }
+    .banner__inner{
+        background-position: -5rem -5rem;
+        background-size: 35rem;
+        justify-content: space-around;
+    }
+    .banner__right{
+        width:40%;
+    }
+    .banner__left{
+        width:40%;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 0.4rem;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .banner__outer{
+        width:100%;
+        height:fit-content;
+    }
+    .banner__inner{
+        background-position: -15rem -15rem;
+        background-size: 40rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .banner__right{
+        width:400px;
+        height:400px;
+    }
+    .banner__left{
+        width:500px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 0.4rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+}
+
+
+
+@media screen and (max-width:693px)
+{
+    .banner__inner{
+        background-position: -20rem -20rem;
+        background-size: 45rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .banner__right{
+        width:300px;
+        height:300px;
+    }
+    .banner__left{
+        width:60%;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 0.4rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    .banner__inner{
+        background-position: -20rem -20rem;
+        background-size: 45rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .banner__right{
+        width:250px;
+        height:250px;
+    }
+    .banner__left{
+        width:90%;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 0.4rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+}
+
