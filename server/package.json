@@ -1,10 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "scaler_assignment shortest path application like uber for cabs",
+  "description": "shortest path application like uber for cabs",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
     "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
